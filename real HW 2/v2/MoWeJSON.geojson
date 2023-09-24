@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "MoWeJSON",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "name": "a to b" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -79.049219854694897, 35.910085943780956 ], [ -79.04924964805511, 35.910139571829355 ], [ -79.049654837754105, 35.910014439716427 ], [ -79.050483093168211, 35.910366001367024 ], [ -79.050244746286452, 35.911146587404779 ] ] ] } }
+]
+}
