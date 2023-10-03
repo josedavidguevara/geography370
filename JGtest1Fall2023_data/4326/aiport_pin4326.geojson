@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "aiport_pin4326",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "Boston Logan Airport", "auxiliary_storage_labeling_positionx": 333193.86781028466, "auxiliary_storage_labeling_positiony": 4692031.4894691491 }, "geometry": { "type": "Point", "coordinates": [ -71.019432900096461, 42.366253641066784 ] } }
+]
+}
