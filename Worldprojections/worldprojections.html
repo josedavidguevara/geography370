@@ -6,29 +6,83 @@
     <title>Projections</title>
 </head>
 <body>
-    <h1>In this project I learned how to display images in different projections</h1>
+    <h1> Homework 3: In this project I learned how to display images in different projections</h1>
     
     <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
+    <p>I started by downloading the shapefile of the globe's country, and used the indicatrix plug in to 
+        see the distortions the default projection had (4326). Then, using the feature on the bottom right, I changed the project CRS
+        to different projections, which is known as reprojecting on the fly. The indicatrix allowed me to 
+        observe the different ways different projections distort the map
+    </p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>The shape and size of countries seem to be
+        pretty well preserved, especially towards the center.
+    </h3>
     <a href=".//maps/4326.png">
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This projection looks more like an oval, and it seems less
+        two-dimensional that the previous one. The lines are curved on this one.
+    </h3>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
     <h2>Pseudo Mercator</h2>
-    <h3>Some observations</h3>
+    <h3>This is the projection I am most familiar with. However, I can now tell
+        how dramatic the size distortion is when it comes to countries
+        like greenland.
+    </h3>
     <a href=".//maps/3857.png">
     <img src=".//maps/3857.png" alt="3857" width='500px'>
     </a>
-    <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
-    <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
-    <p></p>
+    <h2>Winkel I</h2>
+    <h3>This projection also has a globe-ish
+        shape, like the Aitoff, but this one is more elongated and the indicator
+        dots are on straighter lines
+    </h3>
+    <a href=".//maps/53018.png">
+    <img src=".//maps/53018.png" alt="Winkel" width='500px'>
+    </a>
+    <h2>Equal Area Cylindrical</h2>
+    <h3>This projection distorts shape, especially at the poles,
+        but it preserves area. This might be useful when you need to know
+        the size of countries.
+    </h3>
+    <a href=".//maps/54034.png">
+    <img src=".//maps/54034.png" alt="Equal area" width='500px'>
+    </a>
+    <h2>Equidistant Conic</h2>
+    <h3>This projection preserves distances along the meridian but distorts shape and size</h3>
+    <a href=".//maps/54027.png">
+    <img src=".//maps/54027.png" alt="Equidistan Conic" width='500px'>
+    </a>
+    <h2> Azimuthal Equidistant</h2>
+    <h3>This projection looks like the UN logo. It is centered
+        around the north pole, and preserves distance and direction from the center"
+    </h3>
+    <a href=".//maps/102016.png">
+    <img src=".//maps/102016.png" alt="Azimuthal Equidistant" width='500px'>
+    </a>
+    <h2>Natural Earth II</h2>
+    <h3>This map compromises all aspects in order to reduce overall distortion.</h3>
+    <a href=".//maps/54078.png">
+    <img src=".//maps/54078.png" alt="Natural Earth II" width='500px'>
+    </a>
+    <h2>Orthographic (View from Space)</h2>
+    <h3>This projection looks most like a globe, while
+        you can't see the entire world (it gets distorted in the ends) it
+        is a good representation of one side of the planet.
+    </h3>
+    <a href=".//maps/102038.png">
+    <img src=".//maps/102038.png" alt="Orthographic" width='500px'>
+    </a>
+
+    <!--<h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
+    <h3>EPSG: 54034, 54027, 102016, and two additional projections that you choose.</h3> -->
+    <p></p> 
+
     <h2>Data used for this project</h2>
     <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_0_countries.zip"> Download Natrual Earth 1:10m Cultural Vector </a>
 </body>
