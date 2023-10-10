@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE metadata SYSTEM "csdgm2.dtd">
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>
+          2011
+          <!--Use the year that the data has been sent to EDC and NGA. Not entered by contractor.
+Format YYYYMMDD   For example, 20020425 is April 25, 2002
+
+Domain: "Unknown" "Unpublished material" free date-->
+        </pubdate>
+        <title>
+          USGS 1 Foot Orthoimage USNG 16TCK975385, Champaign County, IL
+          <!--Enter the name by which the data file is known. Use the National Grid designation for the SW corner of image. USGS high-resolution orthoimage is the name of the dataset, while the USNG designation is the identity of a single file.
+
+Example: USGS High Resolution Orthoimage USNG 16TDM440425, Chicago IL-IN-
+Domain: free text-->
+        </title>
+        <geoform>
+          remote-sensing image
+          <!--Enter the mode in which the geospatial data are represented.
+
+Domain: (the listed domain is partially from pp. 88-91 in Anglo-American Committee on Cataloguing of Cartographic Materials, 1982, Cartographic materials: A manual of interpretation for AACR2: Chicago, American Library Association):
+
+"atlas" "audio" "diagram" "document" "globe" "map" "model" "multimedia
+presentation" "profile" "raster digital data" "remote-sensing image" "section" "spreadsheet" "tabular digital data" "vector digital data" "video" "view" free text-->
+        </geoform>
+        <pubinfo>
+          <pubplace>
+            <!--Enter the name of the city (and state or province, and country, if needed to identify the city) where the data set was published or released.
+
+Domain: free text-->
+            Sioux Falls, SD
+          </pubplace>
+          <publish>
+            U.S. Geological Survey
+            <!--Enter the name of the individual or organization that published the data set.
+
+Domain: free text-->
+          </publish>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+        <!--Enter a brief narrative summary of the data set.
+
+Domain: free text-->
+        This task order consists of digital orthophoto production covering Champaign County, IL.
+      </abstract>
+      <purpose>
+        <!--Enter a summary of the intentions with which the data set was developed.
+
+Domain: free text-->
+        This data depicts geographic features on the surface of the earth.
+      </purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>
+            20110316
+            <!--Enter the year, month, and day  for which the data corresponds to the currentness reference (for these orthoimage chips, this would be the oldest photo date).
+
+Domain: "Unknown" free date-->
+          </caldate>
+        </sngdate>
+      </timeinfo>
+      <current>
+        ground condition
+        <!--Enter the basis on which the time period of content information is determined.
+
+Domain: "ground condition" "publication date" free text-->
+      </current>
+    </timeperd>
+    <status>
+      <progress>
+        Complete
+        <!--Enter the state of the data set.
+
+Domain: "Complete" "In work" "Planned"-->
+      </progress>
+      <update>
+        irregular
+        <!--Enter the frequency with which changes and additions are made to the data
+set after the initial data set is completed.
+
+Domain: "Continually" "Daily" "Weekly" "Monthly" "Annually" "Unknown" "As
+needed" "Irregular" "None planned" free text-->
+      </update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-88.202613176
+        </westbc>
+        <eastbc>
+-88.184783155
+        </eastbc>
+        <northbc>
+40.104060251
+        </northbc>
+        <southbc>
+40.090730051
+        </southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>
+          None
+          <!--Reference a formally registered thesaurus or similar authoritative source for theme keywords.-->
+        </themekt>
+        <themekey>
+          0.3 meter orthoimage
+          <!--A common-use word or phrase used to describe the subject of the data set.
+
+Domain: free text-->
+        </themekey>
+        <themekey>
+          rectified photograph
+          <!--A common-use word or phrase used to describe the subject of the data set.
+
+Domain: free text-->
+        </themekey>
+        <themekey>
+          rectified image
+          <!--A common-use word or phrase used to describe the subject of the data set.
+
+Domain: free text-->
+        </themekey>
+        <themekey>
+          orthophoto
+          <!--A common-use word or phrase used to describe the subject of the data set.
+
+Domain: free text-->
+        </themekey>
+        <themekey>
+          4 Band Multi Spectral
+          <!--A common-use word or phrase used to describe the subject of the data set.
+
+Domain: free text-->
+        </themekey>
+        <themekey>
+          orthoimage
+          <!--A common-use word or phrase used to describe the subject of the data set.
+
+Domain: free text-->
+        </themekey>
+        <themekey>
+          image map
+          <!--A common-use word or phrase used to describe the subject of the data set.
+
+Domain: free text-->
+        </themekey>
+      </theme>
+      <place>
+        <placekt>
+          <!--Reference to a formally registered thesaurus or a similar authoritative source of place keywords.
+
+Domain: "None" "Geographic Names Information System" free text-->
+          U.S. Department of Commerce, 1995, Countries, dependencies, areas of special sovereignty, and their principal administrative divisions, Federal Information Processing Standard (FIPS) 10-4: Washington, D.C., National Institute of Standards and Technology.
+        </placekt>
+        <placekey>
+          US
+          <!--Enter the geographic name of a location covered by a data set.
+
+Domain: free text-->
+        </placekey>
+        <placekey>
+          <!--Enter the two-letter designation for the State
+-->
+          IL
+        </placekey>
+        <placekey>
+          <!--Enter the Urban Area name from the list provided.  
+
+Example: 'Chicago, IL-IN'
+-->
+          Illinois
+        </placekey>
+        <placekey>
+          <!--Enter the Urban Area name from the list provided.  
+
+Example: 'Chicago, IL-IN'
+-->
+          Champaign County
+        </placekey>
+      </place>
+    </keywords>
+    <accconst>
+      <!--Enter restrictions and legal prerequisites for accessing the data set. These include any access constraints applied to assure the protection of privacy or intellectual property, and any special restrictions or limitations on obtaining the data set.
+
+Domain: "None" free text-->
+      None
+    </accconst>
+    <useconst>
+      <!--Enter restrictions and legal prerequisites for using the data set after access is granted. These include any use constraints applied to assure the protection of privacy or intellectual property, and any special
+restrictions or limitations on using the data set.
+
+Domain: "None" free text-->
+      None.   However, users should be aware that temporal changes may have occurred since this data set was collected and that some parts of this data may no longer represent actual surface conditions.  Users should not use this data for critical applications without a full awareness of it's limitations.
+Acknowledgment of the U.S. Geological Survey would be appreciated for products derived from these data.
+    </useconst>
+    <datacred>
+      <!--Recognition of those who contributed to the data set. Contractor may enter company name of primary contractor.
+
+Domain: free text-->
+      AeroMetric, Inc.
+    </datacred>
+    <native>
+      <!--Enter a description of the data set in the producer's processing environment, including items such as the name of the hardware and the software (including version) and the computer operating system.
+
+Domain: free text-->
+      Intergraph OrthoPro ver 6.0, IRAS C ver 10.1, Photoshop ver CS3,  Windows XP + V7, Inpho: OrthoVista 4.6, Match-T, DTMaster, ICAROS, MicroStation V7 + V8, Global Mapper 13
+    </native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+        <!--Contractor should enter description of photographic quality control.-->
+        Radiometry is verified by visual inspection of the digital orthophoto.  Slight systematic radiometric differences may exist between adjacent orthoimage files; these are due primarily to differences in source image capture dates and sun angles along flight lines. These differences can be observed in an image's general lightness or darkness when it is compared to adjacent orthoimage file coverages. Tonal balancing may be performed over a group of images during the mosaicking process which may serve to lighten or darken adjacent images for better color tone matching.
+      </attraccr>
+    </attracc>
+    <logic>GeoTIFFs conform to the specifications set forth by the USGS for production of orthophotos in the Task Order Number G11PD01042, Modification No. 1.</logic>
+    <complete>
+      Orthoimages are visually inspected for completeness to ensure that no gaps or image misplacements exist within and between adjacent images. These images are derived by mosaicking multiple images to ensure complete coverage. Source imagery is cloud free.
+      <!--Describe any specific void areas in the dataset.-->
+    </complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+          <!--An explanation of the accuracy of the horizontal coordinate measurements and a description of the tests used. This must be entered by the contractor to reflect their methods. This is provided only as a sample of the type of information needed. "Tested" can only be used when data testing is performed against independent checkpoints from a source of higher accuracy.
+
+Domain: free text-->
+          Ortho image horizontal positional accuracy shall not exceed 1.52-meters NSSDA 95% confidence (0.88-meters Root Mean Squared(RMSE) Error XY (0.62-meter RMSE Xor Y).
+        </horizpar>
+        <qhorizpa>
+          <horizpav>
+            <!--Enter an estimate of the accuracy of the horizontal coordinate measurements in the data set expressed in ground units (meters for this dataset).
+
+Domain: free real
+-->
+            0.53
+          </horizpav>
+          <horizpae>
+            <!--Enter the identification of the test that yielded the Horizontal Positional Accuracy Value. This dataset has no associated scale that would allow computation from National Map Accuracy Standard. Methods listed in the NSSDA are required.
+
+Domain: free text 
+-->
+            The horizontal accuracy of the orthorectified images is mainly determined by the quality of the DEM. The elevation data consisted of auto-correlated and edited data produced by AeroMetric. All photo identifiable checkpoints were measured in the final orthos and compared to the surveyed checkpoints to determine the RMSE. All rectified chip overlap was checked for greater than 3 pixel mismatches. All final tiles were checked visually for edge matching.
+          </horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>AeroMetric, Inc.</origin>
+            <pubdate>2010</pubdate>
+            <title>
+              <!--For this example, use the aerial photo frame identification used by the contractor.-->
+274072
+            </title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>12,696</srcscale>
+        <typesrc>
+          <!--Type of source media
+
+Domain:  "paper" "stable-base material" "disc" "cartridge tape" "CD-ROM" "on-line"  free text.-->
+          digital
+        </typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>
+                <!--Use the date (year and month or year, month, and day) of the source photography format yyyy, yyyymm, or yyyymmdd.-->
+20110327
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>
+          <!--The short-form alias for source citation.
+Domain: free text.-->
+          Image
+        </srccitea>
+        <srccontr>
+          <!--Brief statement identifying the information contributed by the source to the data set.  
+Domain: free text.-->
+          Source imagery for orthophoto production.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>AeroMetric, Inc.</origin>
+            <pubdate>2010</pubdate>
+            <title>
+              <!--For this example, use the aerial photo frame identification used by the contractor.-->
+274073
+            </title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>12,696</srcscale>
+        <typesrc>
+          <!--Type of source media
+
+Domain:  "paper" "stable-base material" "disc" "cartridge tape" "CD-ROM" "on-line"  free text.-->
+          digital
+        </typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>
+                <!--Use the date (year and month or year, month, and day) of the source photography format yyyy, yyyymm, or yyyymmdd.-->
+20110327
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>
+          <!--The short-form alias for source citation.
+Domain: free text.-->
+          Image
+        </srccitea>
+        <srccontr>
+          <!--Brief statement identifying the information contributed by the source to the data set.  
+Domain: free text.-->
+          Source imagery for orthophoto production.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>AeroMetric, Inc.</origin>
+            <pubdate>2010</pubdate>
+            <title>
+              <!--For this example, use the aerial photo frame identification used by the contractor.-->
+274074
+            </title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>12,696</srcscale>
+        <typesrc>
+          <!--Type of source media
+
+Domain:  "paper" "stable-base material" "disc" "cartridge tape" "CD-ROM" "on-line"  free text.-->
+          digital
+        </typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>
+                <!--Use the date (year and month or year, month, and day) of the source photography format yyyy, yyyymm, or yyyymmdd.-->
+20110327
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>
+          <!--The short-form alias for source citation.
+Domain: free text.-->
+          Image
+        </srccitea>
+        <srccontr>
+          <!--Brief statement identifying the information contributed by the source to the data set.  
+Domain: free text.-->
+          Source imagery for orthophoto production.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>AeroMetric, Inc.</origin>
+            <pubdate>2011</pubdate>
+            <title>
+              <!--Enter the name by which the data set is known. For the USGS DEMs, use the GNIS designation for the 7.5-minute DEMs used. For the Urban Area cities, this may be newly correlated elevation data which is not in USGS format.
+Domain: free text-->
+AeroMetric auto-correlated DEM
+            </title>
+          </citeinfo>
+        </srccite>
+        <typesrc>
+          <!--Type of source media
+Domain:  "paper" "stable-base material" "disc" "cartridge tape" "CD-ROM" "on-line"  free text.-->
+          CD-ROM
+        </typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>
+                <!--Use the date (year and month or year, month, and day) of the source photography for photogrammetrically derived DEMs, the date of contour compilation source, or unknown; format yyyy, yyyymm, or yyyymmdd.-->
+2011
+              </caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>
+          <!--The short-form alias for source citation.  
+Domain: free text.-->
+          DEM
+        </srccitea>
+        <srccontr>
+          <!--Brief statement identifying the information contributed by the source to the data set.  
+Domain: free text.-->
+          Used to provide ground elevations for orthorectification process.
+        </srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>AeroMetric, Inc.</origin>
+            <pubdate>2011</pubdate>
+            <title>
+              <!--Enter the name by which the data set is known. For the USGS DEMs, use the GNIS designation for the 7.5-minute DEMs used. For 120 cities, this may be newly correlated elevation data which is not in USGS format.
+Domain: free text-->
+              IL Statewide Aerotriangulation
+            </title>
+          </citeinfo>
+        </srccite>
+        <typesrc>
+          <!--Type of source media
+Domain:  "paper" "stable-base material" "disc" "cartridge tape" "CD-ROM" "on-line"  free text.-->
+          CD-ROM
+        </typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20110316</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>
+          <!--The short-form alias for source citation.
+Domain: free text.-->
+          AT
+        </srccitea>
+        <srccontr>
+          <!--Brief statement identifying the information contributed by the source to the data set.
+
+Domain: free text.-->
+          Used to provide photo exterior orientations for orthorectification process.
+        </srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+          <!--Describe the process used -->
+          The DMC images were aerotriangulated to support digital ortho image production for the Illinois statewide project area.  Airborne GPS/IMU was processed and ground check point data was provided by AeroMetric, Inc.  The project was referenced to the North American Datum of 1983 (NAD83), UTM Zone 16 horizontally and to the North American Vertical Datum of 1988 (NAVD88) vertically.  Units were in meters.
+
+
+The DMC images, ABGPS/IMU data, and ground check point data were used as inputs to the ICAROS Automatic Triangulation softcopy program.  ICAROS correlated image points for the block of images and created a solution resulting in exposure station exterior orientations.  All ground points were manually measured on the imagery.  These points were included in the aerotriangulation adjustments for absolute ground location verification.
+
+ 
+
+The scale of the aerial photos was 1:12,696.  The photography was exposed between 3/16/11 and 5/30/11.
+
+DEM data was auto-correlated using Match-T and edited via DTMaster in stereo.
+
+Rectification was done using the aerotriangulation data, raw DMC images, and DEM data.  These rectified images were used to generate auto-seamlines which were then reviewed and edited manually.  The images were then adjusted and used with the seams to mosaic, balance, and cut out large tiles which were reviewed and blunders were corrected as well as other edits performed. The final 1500m tiles were then cut from the big tiles and formatted for delivery.
+        </procdesc>
+        <procdate>
+          <!--The date (year and month or year, month, and day) that the orthoimage was produced; format  yyyymm, or yyyymmdd-->
+          201110
+        </procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>
+            Universal Transverse Mercator
+            <!--Enter name of the grid coordinate system.
+
+Domain: "Universal Transverse Mercator" "Universal Polar Stereographic" "State Plane Coordinate System 1927" "State Plane Coordinate System 1983" "ARC Coordinate System"
+"other grid system" -->
+          </gridsysn>
+          <utm>
+            <utmzone>16
+              <!--Enter the  identifier for the UTM zone.
+Type: integer
+
+Domain: 
+1 <= UTM Zone Number <= 60 for the northern hemisphere;
+-60 <= UTM Zone Number <= -1 for the southern hemisphere-->
+            </utmzone>
+            <transmer>
+              <sfctrmer>
+                0.9996
+                <!--Enter a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian.
+
+Domain: Scale Factor at Central Meridian > 0.0-->
+              </sfctrmer>
+              <longcm>-87
+                <!--Enter the line of longitude at the center of a map projection generally used as the basis for constructing the projection.
+Type: real
+Domain: -180.0 <= Longitude of Central Meridian < 180.0-->
+              </longcm>
+              <latprjo>
+                0.0
+                <!--Enter latitude chosen as the origin of rectangular coordinates for a map projection.
+
+Domain: -90.0 <= Latitude of Projection Origin <= 90.0-->
+              </latprjo>
+              <feast>
+                500000
+                <!--Enter the value added to all "x" values in the rectangular coordinates for a map projection. This value frequently is assigned to eliminate negative numbers. Expressed in the unit of measure identified in Planar Coordinate Units.
+
+Domain: free real-->
+              </feast>
+              <fnorth>
+                0.0
+                <!--Enter the value added to all "y" values in the rectangular coordinates for a map projection. This value frequently is assigned to eliminate negative numbers. Expressed in the unit of measure identified in Planar Coordinate Units.
+
+Domain: free real-->
+              </fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>
+            <!--Enter the means used to represent horizontal positions.
+
+Domain: "coordinate pair" "distance and bearing" "row and column"-->
+            row and column
+          </plance>
+          <coordrep>
+            <absres>
+              0.3
+              <!--Enter the (nominal) minimum distance between the "x" or column values of two adjacent points, expressed in Planar Distance Units of measure.
+
+Domain: Abscissa Resolution > 0.0-->
+            </absres>
+            <ordres>
+              0.3
+              <!--Enter the (nominal) minimum distance between the "y" or row values of two adjacent points, expressed in Planar Distance Units of measure.
+
+Domain: Ordinate Resolution > 0.0-->
+            </ordres>
+          </coordrep>
+          <plandu>
+            meters
+            <!--Enter units of measure used for distances.
+
+Domain: "meters" "international feet" "survey feet" free text-->
+          </plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>
+          North American Datum of 1983
+          <!--Enter the identification given to the reference system used for defining the coordinates of points.
+
+Domain: "North American Datum of 1927" "North American Datum of 1983" free text-->
+        </horizdn>
+        <ellips>
+          Geodetic Reference System 80
+          <!--Enter identification given to established representations of the Earth's shape.
+
+Domain: "Clarke 1866" "Geodetic Reference System 80" free text-->
+        </ellips>
+        <semiaxis>
+          6378137
+          <!--Enter radius of the equatorial axis of the ellipsoid.
+
+Domain: Semi-major Axis > 0.0-->
+        </semiaxis>
+        <denflat>
+          <!--Enter the denominator of the ratio of the difference between the equatorial and polar radii of the ellipsoid when the numerator is set to 1.
+
+Domain: Denominator of Flattening > 0.0-->
+          298.2572221
+        </denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>
+        <!--Enter detailed summary of the information contained in a data set.
+
+Domain: free text-->
+        Four band orthoimagery is organized in four color bands or channels which represent the red, green, blue, and near-infrared portions of the spectrum.  Each image pixel is assigned a quadruple numeric value, one for each color band.  Numeric values range from 0 to 255. Areas where data is incomplete due to lack of full image coverage are represented with the numeric value of 0.
+      </eaover>
+      <eadetcit>
+        U.S. Department of the Interior, U.S. Geological Survey, 1996, Standards for Digital Orthophotos: Reston, VA.
+        <!--Enter reference to the complete description of the entity types, attributes, and attribute values for the data set.
+
+Domain: free text-->
+      </eadetcit>
+    </overview>
+  </eainfo>
+  <metainfo>
+    <metd>
+      <!--Enter the date that the metadata were created or last updated.
+
+Domain: free date-->
+      20111220
+    </metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>
+            <!--Enter the name of the organization to which the contact type applies.
+
+Domain: free text-->
+            U.S. Geological Survey
+          </cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>
+            <!--Enter the information provided by the address.
+
+Domain: "mailing" "physical" "mailing and physical", free text-->
+            Mailing and physical address
+          </addrtype>
+          <address>
+            <!--Enter an address line for the address. Enter contractor's mailing address here.
+
+Domain: free text-->
+            Customer Services
+          </address>
+          <address>
+            <!--Enter an address line for the address. Enter contractor's mailing address here.
+
+Domain: free text-->
+            U.S. Geological Survey
+          </address>
+          <address>
+            <!--Enter an address line for the address. Enter contractor's mailing address here.
+
+Domain: free text-->
+            EROS Data Center
+          </address>
+          <address>
+            <!--Enter an address line for the address. Enter contractor's mailing address here.
+
+Domain: free text-->
+            47914 252nd Street
+          </address>
+          <city>
+            <!--Enter name of the city where the contractor is located.-->
+            Sioux Falls
+          </city>
+          <state>
+            <!--Enter the name of the State in which the contractor is located.-->
+            SD
+          </state>
+          <postal>
+            <!--Enter the zip code for the address above.-->
+            57198-0001
+          </postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>
+          <!--Enter the telephone number for the POC for this dataset.-->
+          1-800-252-4547
+        </cntvoice>
+        <cnttdd>
+          <!--Enter the TTY telephone number if one is available.-->
+          1-605-594-6933
+        </cnttdd>
+        <cntfax>1-605-594-6589</cntfax>
+        <cntemail>
+          <!--Enter the e-mail address for the contact group or persons.-->
+          custserv@usgs.gov
+        </cntemail>
+        <hours>Monday through Friday 8:00 AM to 4:00 PM (Central Time)</hours>
+        <cntinst>The above is the contact information for EROS Data Center in Sioux Falls, SD. This is the digital data storage and distribution center for the USGS. Metadata information can also be obtained through online services using The National Map Viewer, at http:/nationalmap.usgs.gov or EarthExplorer, at http://earthexplorer.usgs.gov.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>
+      FGDC Content Standard for Digital Geospatial Metadata
+      <!--Enter the name of the metadata standard used to document the data set.
+
+Domain: "FGDC Content Standard for Digital Geospatial Metadata" free text-->
+    </metstdn>
+    <metstdv>
+      FGDC-STD-001-1998
+      <!--Enter identification of the version of the metadata standard used to document the data set.
+
+Domain: free text-->
+    </metstdv>
+  </metainfo>
+</metadata>
+
