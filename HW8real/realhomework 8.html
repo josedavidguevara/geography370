@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework 8</title>
+</head>
+<body>
+<h1>homework 8</h1>
+<a href="./realhw8im.png"><img src="./realhw8im.png" alt="" width='500px'></a> 
+<h3>Because Tennessee has many rural areas, I wanted to visualize what parts of the state were especially vulnerable to COVID-19 at the height of the pandemic. Because COVID-19 is a disease that affects the lungs, having asthma puts individuals at high risk for complications. Another factor that increases risk is inability to receive treatment, so distance from hospitals was another variable to consider. Finally, because COVID-19 is a very infectious disease, living in an area with high COVID rates also puts you at risk for contracting COVID and the complications that come with it.
+
+    Thus, I wanted to identify the regions of Tennessee that were (1) more than ten miles away from the nearest hospital, (2) had high rates of asthma, and (3) had high covid rates. 
+    
+    On arcgis, I found a shapefile with all of the hospitals in Tennessee. This allowed me to use my first geoprocessing tool, a 10 mile buffer around each hospital. Next, I found COVID-19 case surveillance data from the CDC. I had to use R and an API key to get the specific data from Tennessee, but I know had a csv with covid cases per county in November of 2021. I divided the number of cases by the county population and joined the data with a map of Tennessee’s counties I got from TIGER. I created a choropleth map and created a layer with only the counties with the top 25% infection rates. Then, I used the geoprocessing tool Difference, to create a layer with areas outside the hospital buffer and also with high infection rates. I repeated the same process with asthma surveillance data from the CDC, and used intersect to determine the areas that were more than 10 miles away from the nearest hospital, were in the top 25% of covid rates, and top 25% of asthma rates.
+    
+</h3>
+<h4> </h4>
+<h2>Data used for this project</h2>
+   <a href="./v2/covidcounty2.csv"> covid data csv</a>
+   <a href="./v2/asthma.csv"> asthma data</a> <br>
+   <a href="https://www.cdc.gov/asthma/national-surveillance-data/default.htm"> link to asthma data </a> <br>
+   <a href="https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data-with-Ge/n8mc-b4w4"> link to covid data </a> <br>
+   <a href="https://hub.arcgis.com/datasets/tnmap::tn-hospitals/explore?location=35.751171%2C-85.918600%2C7.42">Link to hospital data</a>
+<a href="../index.html"><h2>return home</h2></a>
+</body>
+</html>
